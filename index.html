@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Flora Talent | Redefining Retail Excellence</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-secondary-container": "#58685f",
+                        "on-primary-fixed": "#002114",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface-variant": "#414844",
+                        "error": "#ba1a1a",
+                        "secondary": "#526259",
+                        "surface-bright": "#f9f9f8",
+                        "surface-tint": "#3f6653",
+                        "outline": "#717973",
+                        "inverse-surface": "#2e3131",
+                        "on-background": "#191c1c",
+                        "on-error": "#ffffff",
+                        "surface-container": "#edeeed",
+                        "primary-container": "#1b4332",
+                        "inverse-primary": "#a5d0b9",
+                        "secondary-container": "#d5e7db",
+                        "surface-variant": "#e1e3e2",
+                        "on-secondary-fixed": "#101e17",
+                        "surface": "#f9f9f8",
+                        "surface-container-low": "#f3f4f3",
+                        "primary-fixed-dim": "#a5d0b9",
+                        "surface-dim": "#d9dad9",
+                        "surface-container-highest": "#e1e3e2",
+                        "background": "#f9f9f8",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#673a39",
+                        "tertiary": "#401b1b",
+                        "on-tertiary-container": "#d29895",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#3b4a42",
+                        "on-secondary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-primary-container": "#86af99",
+                        "on-tertiary-fixed": "#331111",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#b9cbbf",
+                        "outline-variant": "#c1c8c2",
+                        "on-primary-fixed-variant": "#274e3d",
+                        "primary": "#012d1d",
+                        "surface-container-high": "#e7e8e7",
+                        "inverse-on-surface": "#f0f1f0",
+                        "tertiary-container": "#5a302f",
+                        "primary-fixed": "#c1ecd4",
+                        "tertiary-fixed-dim": "#f5b7b4",
+                        "secondary-fixed": "#d5e7db",
+                        "on-surface": "#191c1c",
+                        "tertiary-fixed": "#ffdad8"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter"],
+                        "body": ["Newsreader"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+
+        body {
+            background-color: #f9f9f8;
+            color: #191c1c;
+        }
+
+        /* Custom Architectural Spacing */
+        .section-gap {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+        }
+    </style>
+</head>
+
+<body class="font-body selection:bg-primary-fixed selection:text-primary">
+    <!-- Top Navigation Shell -->
+    <nav class="fixed top-0 w-full z-50 bg-[#f9f9f8]/80 dark:bg-[#191c1c]/80 backdrop-blur-md">
+        <div class="flex justify-between items-center px-8 py-6 w-full max-w-[1440px] mx-auto">
+            <div class="text-2xl font-black tracking-tighter text-[#012d1d] dark:text-[#f9f9f8] font-headline">
+                Flora Talent
+            </div>
+            <div class="hidden md:flex gap-12 items-center">
+                <div class="flex gap-8">
+                    <a class="font-headline font-bold uppercase tracking-tight text-sm text-[#191c1c]/60 hover:text-[#1b4332] transition-colors duration-150"
+                        href="#values">Values</a>
+                    <a class="font-headline font-bold uppercase tracking-tight text-sm text-[#191c1c]/60 hover:text-[#1b4332] transition-colors duration-150"
+                        href="#sectors">Sectors</a>
+                    <a class="font-headline font-bold uppercase tracking-tight text-sm text-[#191c1c]/60 hover:text-[#1b4332] transition-colors duration-150"
+                        href="#coverage">Coverage</a>
+                    <a class="font-headline font-bold uppercase tracking-tight text-sm text-[#191c1c]/60 hover:text-[#1b4332] transition-colors duration-150"
+                        href="#why-us">Why Us</a>
+                </div>
+                <button
+                    class="bg-primary text-on-primary px-8 py-3 font-headline font-bold uppercase tracking-widest text-xs hover:bg-primary-container transition-colors duration-150">
+                    Contact Us
+                </button>
+            </div>
+            <div class="md:hidden">
+                <span class="material-symbols-outlined text-primary">menu</span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Hero Section: Editorial Boldness -->
+        <section
+            class="min-h-screen pt-32 pb-20 px-8 flex flex-col justify-center items-center overflow-hidden bg-surface">
+            <div class="max-w-[1440px] w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+                <div class="lg:col-span-8">
+                    <h1
+                        class="font-headline font-black text-6xl md:text-8xl lg:text-[7rem] leading-[0.9] tracking-tighter text-primary">
+                        Redefining the standard for retail talent.
+                    </h1>
+                </div>
+                <div class="lg:col-span-4 lg:mb-4">
+                    <p class="font-body italic text-2xl md:text-3xl text-on-surface-variant leading-tight max-w-sm">
+                        Flora Talent provides elite retail outsourcing solutions designed for the modern brand
+                        landscape.
+                    </p>
+                    <div class="mt-12">
+                        <span class="font-headline font-bold uppercase text-xs tracking-[0.3em] block mb-4">Established
+                            2024</span>
+                        <div class="w-24 h-[2px] bg-primary"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full mt-24 aspect-[21/9] bg-surface-container-low relative overflow-hidden">
+                <img alt="Professional retail staff"
+                    class="w-full h-full object-cover filter grayscale brightness-90 hover:grayscale-0 transition-all duration-700"
+                    data-alt="Modern high-end retail boutique interior with professional staff in sharp dark green uniforms standing confidently in a bright minimalist environment"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtrEzfmR-02jYvm-QmFVdp9Ybl6ekHWFK4ct9kP35SMAlKfLgRqLfAGd64HRDFMUbrl2uu2KwVYOrw1I_0mtIHyDgf0g33OFbVS4CyV9fqZQA1NcJss033ZlCruHMfUepGsemYcg4GQqsq9aOvGnO6ooPx_OVqnUfLw3jeRmPVzdlWi9YYfmvqhMUnEuF8Mry9KmWGBCdf8KQcShbGfBTRYWQLldkPcoRXTHEWISyET6LrdI_c0fxUNNsj03s64DXSPDj6yFacayU" />
+            </div>
+        </section>
+        <!-- Partner Logo Wall -->
+        <section class="py-16 px-8 bg-surface-container">
+            <div class="max-w-[1440px] mx-auto flex flex-wrap justify-between items-center gap-12 opacity-50 grayscale">
+                <span class="font-headline font-black text-2xl tracking-tighter">Gita Yourvisual</span>
+                <span class="font-headline font-black text-2xl tracking-tighter italic">VBali</span>
+                <span class="font-headline font-black text-2xl tracking-tighter uppercase">Grovici</span>
+                <div class="h-px w-24 bg-on-surface/20 hidden lg:block"></div>
+                <span class="font-headline font-bold uppercase text-xs tracking-[0.2em]">Our Strategic Partners</span>
+            </div>
+        </section>
+        <!-- Values Section: Asymmetric Feature -->
+        <section class="section-gap px-8 bg-surface" id="values">
+            <div class="max-w-[1440px] mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-20">
+                    <div class="lg:col-span-4">
+                        <h2 class="font-headline font-bold uppercase text-xs tracking-[0.4em] text-primary mb-8 block">
+                            Our Values</h2>
+                        <p class="font-body text-4xl leading-tight">We operate with the precision of an architect and
+                            the intuition of a curator.</p>
+                    </div>
+                    <div class="lg:col-span-8 flex flex-col gap-24">
+                        <!-- Value Item 01 -->
+                        <div class="flex flex-col md:flex-row gap-8 items-start group">
+                            <span
+                                class="font-headline font-bold text-6xl text-primary-container/20 group-hover:text-primary transition-colors duration-300">01</span>
+                            <div>
+                                <h3
+                                    class="font-headline font-black text-4xl mb-6 uppercase tracking-tight text-primary">
+                                    Professional &amp; Reliable</h3>
+                                <p class="font-body text-xl text-on-surface-variant max-w-xl">Our approach is grounded
+                                    in extreme consistency. We provide personnel who are not just staff, but brand
+                                    ambassadors trained to uphold your specific retail identity with unwavering
+                                    reliability.</p>
+                            </div>
+                        </div>
+                        <!-- Value Item 02 -->
+                        <div class="flex flex-col md:flex-row gap-8 items-start group">
+                            <span
+                                class="font-headline font-bold text-6xl text-primary-container/20 group-hover:text-primary transition-colors duration-300">02</span>
+                            <div>
+                                <h3
+                                    class="font-headline font-black text-4xl mb-6 uppercase tracking-tight text-primary">
+                                    Sales &amp; Customer Focused</h3>
+                                <p class="font-body text-xl text-on-surface-variant max-w-xl">Every interaction is an
+                                    opportunity for conversion. We train our talent in the psychology of sales, ensuring
+                                    every customer journey ends with a meaningful and profitable connection.</p>
+                            </div>
+                        </div>
+                        <!-- Value Item 03 -->
+                        <div class="flex flex-col md:flex-row gap-8 items-start group">
+                            <span
+                                class="font-headline font-bold text-6xl text-primary-container/20 group-hover:text-primary transition-colors duration-300">03</span>
+                            <div>
+                                <h3
+                                    class="font-headline font-black text-4xl mb-6 uppercase tracking-tight text-primary">
+                                    Integrity &amp; Partnership</h3>
+                                <p class="font-body text-xl text-on-surface-variant max-w-xl">We don't just supply
+                                    talent; we integrate into your business. Our transparency and ethical standards form
+                                    the bedrock of long-term sustainable growth for our partners.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Us: The Grid System -->
+        <section class="section-gap px-8 bg-primary" id="why-us">
+            <div class="max-w-[1440px] mx-auto">
+                <div class="mb-20 text-on-primary">
+                    <h2 class="font-headline font-bold uppercase text-xs tracking-[0.4em] mb-4">The Flora Advantage</h2>
+                    <h3 class="font-headline font-black text-5xl md:text-7xl">Why Choose Us</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-on-primary-container/20">
+                    <div class="bg-primary p-12 hover:bg-primary-container transition-colors duration-300">
+                        <span class="material-symbols-outlined text-primary-fixed text-4xl mb-8"
+                            data-icon="payments">payments</span>
+                        <h4 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-primary mb-4">
+                            Competitive Pricing</h4>
+                        <p class="text-on-primary-container font-body text-lg">Optimized cost structures that deliver
+                            elite talent without compromising your bottom line.</p>
+                    </div>
+                    <div class="bg-primary p-12 hover:bg-primary-container transition-colors duration-300">
+                        <span class="material-symbols-outlined text-primary-fixed text-4xl mb-8"
+                            data-icon="hub">hub</span>
+                        <h4 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-primary mb-4">
+                            Strong Retail Network</h4>
+                        <p class="text-on-primary-container font-body text-lg">Unparalleled access to retail ecosystems
+                            across Indonesia's major commercial hubs.</p>
+                    </div>
+                    <div class="bg-primary p-12 hover:bg-primary-container transition-colors duration-300">
+                        <span class="material-symbols-outlined text-primary-fixed text-4xl mb-8"
+                            data-icon="person_pin">person_pin</span>
+                        <h4 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-primary mb-4">
+                            Dedicated PIC per Brand</h4>
+                        <p class="text-on-primary-container font-body text-lg">Single point of contact accountability
+                            ensuring seamless communication and management.</p>
+                    </div>
+                    <div class="bg-primary p-12 hover:bg-primary-container transition-colors duration-300">
+                        <span class="material-symbols-outlined text-primary-fixed text-4xl mb-8"
+                            data-icon="school">school</span>
+                        <h4 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-primary mb-4">
+                            Ready &amp; Trained Staff</h4>
+                        <p class="text-on-primary-container font-body text-lg">Pre-vetted professionals equipped with
+                            industry-leading training modules.</p>
+                    </div>
+                    <div
+                        class="bg-primary p-12 hover:bg-primary-container transition-colors duration-300 lg:col-span-2">
+                        <span class="material-symbols-outlined text-primary-fixed text-4xl mb-8"
+                            data-icon="monitoring">monitoring</span>
+                        <h4 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-primary mb-4">
+                            Performance-Driven</h4>
+                        <p class="text-on-primary-container font-body text-lg max-w-lg">Metrics that matter. We measure
+                            success through KPIs that align directly with your brand's growth and customer satisfaction
+                            targets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Sectors: Visual Mosaic -->
+        <section class="section-gap px-8 bg-surface-container-low" id="sectors">
+            <div class="max-w-[1440px] mx-auto">
+                <h2 class="font-headline font-black text-6xl md:text-8xl tracking-tighter text-primary mb-20">
+                    Specialized Sectors.</h2>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                    <!-- Beauty -->
+                    <div class="relative group h-[500px] overflow-hidden">
+                        <img class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            data-alt="Luxury beauty counter with elegant product displays and soft atmospheric lighting in a high-end department store"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdKwjJeiNvQ9c9fS76fXHde0ztaSY-RG8ktcpG1MZ-wn-jPgdnkRna_5DST9qN-JkDc7CiJ_JU0ZFAgWkG2iEQlpF4eumiH_Xpyi_Hqc2FbiDxprKlftXJZfigUe5t13PXEwcp77nzCBaHDCeTzNV4g23KGVQls-Tyfc7hS4q5oV4j6q-a4Sg8_rWrX9NDKAtuZoMPAmRSFAhOszUXaTkXE8kmBzg3zC7mu2_E37_WlsznV_fN-Pumh-N_bFALC_PbP4VZK6mj9Do" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                            <h4 class="text-on-primary font-headline font-bold uppercase tracking-widest text-sm">Beauty
+                                Product</h4>
+                        </div>
+                    </div>
+                    <!-- Personal Care -->
+                    <div class="relative group h-[500px] overflow-hidden md:mt-12">
+                        <img class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            data-alt="Minimalist personal care boutique with clean wooden shelving and high-end skincare bottles in natural daylight"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZJbg4ODhdXVQgXDVsTFDTkNaBAqlZAjMAFiVqfO8fKbgcX66Kfud3yCqk7--rOgiZycKmPc1WLuEK9nkbq-si-Tt_Wy04aj_cjSxf1U2l2UTsqtB56wsnKuAmyP5zHTm4hBEVgGQL5FVB0lBUbjKhGghpO3Xb133aqQ7_YS5QO0HPPWo_i_VHo_H7XU7Vxydmdtl63ZHbq5pvGpDLe1DEEhwixSb-RGuefYlVaWjJSte6VS5NYRNrkV_fKkB7qAJgLPzCckWu5Ck" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                            <h4 class="text-on-primary font-headline font-bold uppercase tracking-widest text-sm">
+                                Personal Care</h4>
+                        </div>
+                    </div>
+                    <!-- F&B -->
+                    <div class="relative group h-[500px] overflow-hidden">
+                        <img class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            data-alt="Upscale artisanal coffee shop with marble surfaces and professional barista preparing a drink in a modern urban setting"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWQtFZo2zYA93CJVI5jnZtrZKconNFWymVXHcrZNI3NolDq_X5JF_6h_q7LQiAS71KwA7P6Rc4b0ngSkCqVDnzjczxwQDLwtwX-vnbrgf0QHlEOe634iICCT_Ha80QFXA125FBvcyT2DNUQFH0m_QNYbgOy4ETtlReu1OG2K7F_5SxBndmDl5OwTepI5MJ-wVUqcuw6YEZ78dXfTfWxkVpzE--uubsFstNe6uIp2feqQ2lHThEO3FV6-8FP0_Pr61VrFN4HBpqZbg" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                            <h4 class="text-on-primary font-headline font-bold uppercase tracking-widest text-sm">Food
+                                &amp; Beverage</h4>
+                        </div>
+                    </div>
+                    <!-- Home Living -->
+                    <div class="relative group h-[500px] overflow-hidden md:mt-12">
+                        <img class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            data-alt="Sophisticated home interior showroom with designer furniture and architectural lighting shadows"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSyKGwEsBtatMKYf1CIMXj8RpiluBUoDY18JxG60_6-KHZy-DniejZm48Qf66TAUSV0bhM_qD4Rnrjjf40p8BrFYvCWDF5tI7U5roLCgfgK8S9IolVgP3ADn7ZT9tYan1ckqcF8L1ynfBQHKwqEPU0wHpPADDtQtK6dm07eWPkBq6FUzt-hFb9E-e98aGya7gdTErukaVZ3kbvmAbQljEzocKSrtc06RCWvIXldFzUpUHGWSiVjMLHVAzPNkBuT4Sgylnq4cHCKKo" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                            <h4 class="text-on-primary font-headline font-bold uppercase tracking-widest text-sm">Home
+                                Living</h4>
+                        </div>
+                    </div>
+                    <!-- Baby -->
+                    <div class="relative group h-[500px] overflow-hidden">
+                        <img class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                            data-alt="Premium baby boutique with soft pastel colors and high-quality sustainable children's products organized on sleek shelves"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfXKSHTXnGsdLHsWP0p48OZ5fJHBDlPB7ikSM8K75zaURPTT8r2GA7N7eQPIFbgG4-t7XLoJql2Xxlxf0RvXBdx8g_lRCPrn_snPa5wF0XxkBBI7UOrjkMvz__jxltf_J2LExulk6-K_3IvtVCLtZ6mVUkQpCXA0wlQs4fQAztz4LgAW3Ddmp9n_E0zy6PFLYVy0lmWLChfKp744z8MPXJ--CjH59q6UXbcIFsWdYwjLB5VI6g-WZ4jl4OmGAmJqfNgQU2l9_O1jA" />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                            <h4 class="text-on-primary font-headline font-bold uppercase tracking-widest text-sm">Baby
+                                Product</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Coverage: Geographic Presence -->
+        <section class="section-gap px-8 bg-surface" id="coverage">
+            <div class="max-w-[1440px] mx-auto border-t border-primary/10 pt-20">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    <div class="lg:col-span-4">
+                        <h2 class="font-headline font-bold uppercase text-xs tracking-[0.4em] text-primary mb-4">Our
+                            Reach</h2>
+                        <h3 class="font-headline font-black text-5xl italic">Coverage</h3>
+                    </div>
+                    <div class="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-8">
+                        <div>
+                            <span
+                                class="font-headline font-bold text-sm text-primary block border-b border-primary/20 pb-2 mb-4">JABODETABEK</span>
+                            <ul class="font-body text-xl space-y-2">
+                                <li>Jakarta</li>
+                                <li>Jabodetabek</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span
+                                class="font-headline font-bold text-sm text-primary block border-b border-primary/20 pb-2 mb-4">WEST
+                                JAVA</span>
+                            <ul class="font-body text-xl space-y-2">
+                                <li>Bandung</li>
+                                <li>Cirebon</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span
+                                class="font-headline font-bold text-sm text-primary block border-b border-primary/20 pb-2 mb-4">CENTRAL
+                                JAVA</span>
+                            <ul class="font-body text-xl space-y-2">
+                                <li>Semarang</li>
+                                <li>Jogja</li>
+                                <li>Solo</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <span
+                                class="font-headline font-bold text-sm text-primary block border-b border-primary/20 pb-2 mb-4">EAST
+                                JAVA</span>
+                            <ul class="font-body text-xl space-y-2">
+                                <li>Surabaya</li>
+                                <li>Malang</li>
+                                <li>Sidoarjo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Final CTA -->
+        <section class="bg-primary-container py-32 px-8 overflow-hidden relative">
+            <div class="absolute inset-0 opacity-10">
+                <div
+                    class="absolute top-0 right-0 w-[800px] h-[800px] border-l border-b border-on-primary rotate-45 transform translate-x-1/2 -translate-y-1/2">
+                </div>
+            </div>
+            <div class="max-w-[1440px] mx-auto relative z-10">
+                <div class="max-w-4xl">
+                    <h2
+                        class="font-headline font-black text-6xl md:text-[8rem] leading-[0.8] text-on-primary tracking-tighter mb-12">
+                        Let's talk scale.</h2>
+                    <p class="font-body text-2xl text-on-primary-container mb-12 max-w-xl italic">Elevate your retail
+                        operations with a partner that values precision as much as you do.</p>
+                    <button
+                        class="bg-primary-fixed text-on-primary-fixed px-12 py-6 font-headline font-bold uppercase tracking-widest text-sm hover:bg-surface-bright transition-all duration-300">
+                        Inquire About Services
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Shell -->
+    <footer class="bg-[#012d1d] dark:bg-[#000000]">
+        <div
+            class="flex flex-col md:flex-row justify-between items-start px-12 py-20 w-full max-w-[1440px] mx-auto text-[#f9f9f8]">
+            <div class="mb-12 md:mb-0">
+                <div class="text-3xl font-black text-[#f9f9f8] mb-4 font-headline uppercase tracking-tighter">Flora
+                    Talent.</div>
+                <p class="font-body italic text-lg max-w-xs opacity-70">The Architectural Curator of Retail Outsourcing.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-12 lg:gap-24">
+                <div class="flex flex-col gap-4">
+                    <span class="font-headline font-bold uppercase text-xs tracking-widest opacity-40">Company</span>
+                    <a class="font-body text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">About Us</a>
+                    <a class="font-body text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">Sectors</a>
+                    <a class="font-body text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">Partner with
+                        Us</a>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <span class="font-headline font-bold uppercase text-xs tracking-widest opacity-40">Legal</span>
+                    <a class="font-body text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">Privacy
+                        Policy</a>
+                    <a class="font-body text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">Terms of
+                        Service</a>
+                </div>
+            </div>
+            <div class="mt-12 md:mt-0 flex flex-col gap-4">
+                <span class="font-headline font-bold uppercase text-xs tracking-widest opacity-40">Connect</span>
+                <div class="flex gap-6">
+                    <a class="text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">LinkedIn</a>
+                    <a class="text-[#f9f9f8]/70 hover:text-white transition-opacity" href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="px-12 py-8 border-t border-white/10 max-w-[1440px] mx-auto text-xs font-headline uppercase tracking-widest opacity-40 text-center md:text-left text-[#f9f9f8]">
+            © 2024 Flora Talent. The Architectural Curator.
+        </div>
+    </footer>
+</body>
+
+</html>
